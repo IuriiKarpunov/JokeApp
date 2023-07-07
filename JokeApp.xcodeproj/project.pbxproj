@@ -19,6 +19,7 @@
 		4A6756582A0D72DC008C88F5 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A6756552A0D72DC008C88F5 /* Roboto-Medium.ttf */; };
 		4A6756592A0D72DC008C88F5 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A6756562A0D72DC008C88F5 /* Roboto-BoldItalic.ttf */; };
 		4A67565A2A0D72DC008C88F5 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A6756572A0D72DC008C88F5 /* Roboto-Bold.ttf */; };
+		4A75109C2A58991E003456E8 /* UIView+Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A75109B2A58991E003456E8 /* UIView+Borders.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		4A6756552A0D72DC008C88F5 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		4A6756562A0D72DC008C88F5 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
 		4A6756572A0D72DC008C88F5 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		4A75109B2A58991E003456E8 /* UIView+Borders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Borders.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		4A6756222A0D715E008C88F5 /* JokeApp */ = {
 			isa = PBXGroup;
 			children = (
+				4A75109B2A58991E003456E8 /* UIView+Borders.swift */,
 				4A6756232A0D715E008C88F5 /* AppDelegate.swift */,
 				4A6756252A0D715E008C88F5 /* SceneDelegate.swift */,
 				4A6756272A0D715E008C88F5 /* ViewController.swift */,
@@ -112,6 +115,7 @@
 				4A67562C2A0D715E008C88F5 /* Assets.xcassets */,
 				4A67562E2A0D715E008C88F5 /* LaunchScreen.storyboard */,
 				4A6756312A0D715E008C88F5 /* Info.plist */,
+				4A6756532A0D72DC008C88F5 /* Resources */,
 			);
 			path = JokeApp;
 			sourceTree = "<group>";
@@ -129,7 +133,6 @@
 			children = (
 				4A6756442A0D715F008C88F5 /* JokeAppUITests.swift */,
 				4A6756462A0D715F008C88F5 /* JokeAppUITestsLaunchTests.swift */,
-				4A6756532A0D72DC008C88F5 /* Resources */,
 			);
 			path = JokeAppUITests;
 			sourceTree = "<group>";
@@ -139,8 +142,9 @@
 			children = (
 				4A6756542A0D72DC008C88F5 /* Fonts */,
 			);
-			path = Resources;
-			sourceTree = "<group>";
+			name = Resources;
+			path = JokeAppUITests/Resources;
+			sourceTree = SOURCE_ROOT;
 		};
 		4A6756542A0D72DC008C88F5 /* Fonts */ = {
 			isa = PBXGroup;
@@ -286,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A75109C2A58991E003456E8 /* UIView+Borders.swift in Sources */,
 				4A6756282A0D715E008C88F5 /* ViewController.swift in Sources */,
 				4A6756242A0D715E008C88F5 /* AppDelegate.swift in Sources */,
 				4A6756262A0D715E008C88F5 /* SceneDelegate.swift in Sources */,

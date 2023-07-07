@@ -10,9 +10,12 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var questionLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        questionLabel.layer.addBorder(side: .bottom, thickness: 2, color: UIColor.black.cgColor)
+        questionLabel.layer.addBorder(side: .top, thickness: 2, color: UIColor.black.cgColor)
     }
 
 
