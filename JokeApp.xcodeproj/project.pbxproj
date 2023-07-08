@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4A6756242A0D715E008C88F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6756232A0D715E008C88F5 /* AppDelegate.swift */; };
 		4A6756262A0D715E008C88F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6756252A0D715E008C88F5 /* SceneDelegate.swift */; };
-		4A6756282A0D715E008C88F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6756272A0D715E008C88F5 /* ViewController.swift */; };
+		4A6756282A0D715E008C88F5 /* JokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6756272A0D715E008C88F5 /* JokeViewController.swift */; };
 		4A67562B2A0D715E008C88F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A6756292A0D715E008C88F5 /* Main.storyboard */; };
 		4A67562D2A0D715E008C88F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A67562C2A0D715E008C88F5 /* Assets.xcassets */; };
 		4A6756302A0D715E008C88F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A67562E2A0D715E008C88F5 /* LaunchScreen.storyboard */; };
@@ -20,6 +20,10 @@
 		4A6756592A0D72DC008C88F5 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A6756562A0D72DC008C88F5 /* Roboto-BoldItalic.ttf */; };
 		4A67565A2A0D72DC008C88F5 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A6756572A0D72DC008C88F5 /* Roboto-Bold.ttf */; };
 		4A75109C2A58991E003456E8 /* UIView+Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A75109B2A58991E003456E8 /* UIView+Borders.swift */; };
+		4A7510A02A5943D5003456E8 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A75109F2A5943D5003456E8 /* Array+Extensions.swift */; };
+		4A7510A32A59A6F8003456E8 /* JokeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7510A22A59A6F8003456E8 /* JokeModel.swift */; };
+		4A7510A62A59A7EE003456E8 /* JokeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7510A52A59A7EE003456E8 /* JokeFactory.swift */; };
+		4A7510AA2A59C11F003456E8 /* PunchlineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7510A92A59C11F003456E8 /* PunchlineModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +47,7 @@
 		4A6756202A0D715E008C88F5 /* JokeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JokeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A6756232A0D715E008C88F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A6756252A0D715E008C88F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4A6756272A0D715E008C88F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A6756272A0D715E008C88F5 /* JokeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewController.swift; sourceTree = "<group>"; };
 		4A67562A2A0D715E008C88F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A67562C2A0D715E008C88F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A67562F2A0D715E008C88F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +61,10 @@
 		4A6756562A0D72DC008C88F5 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
 		4A6756572A0D72DC008C88F5 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		4A75109B2A58991E003456E8 /* UIView+Borders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Borders.swift"; sourceTree = "<group>"; };
+		4A75109F2A5943D5003456E8 /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		4A7510A22A59A6F8003456E8 /* JokeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeModel.swift; sourceTree = "<group>"; };
+		4A7510A52A59A7EE003456E8 /* JokeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeFactory.swift; sourceTree = "<group>"; };
+		4A7510A92A59C11F003456E8 /* PunchlineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunchlineModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,15 +115,16 @@
 		4A6756222A0D715E008C88F5 /* JokeApp */ = {
 			isa = PBXGroup;
 			children = (
-				4A75109B2A58991E003456E8 /* UIView+Borders.swift */,
+				4A7510A42A59A755003456E8 /* Services */,
+				4A7510A12A594481003456E8 /* Models */,
+				4A75109E2A5943BE003456E8 /* Helpers */,
+				4A75109D2A594326003456E8 /* Presentation */,
+				4A6756532A0D72DC008C88F5 /* Resources */,
 				4A6756232A0D715E008C88F5 /* AppDelegate.swift */,
 				4A6756252A0D715E008C88F5 /* SceneDelegate.swift */,
-				4A6756272A0D715E008C88F5 /* ViewController.swift */,
-				4A6756292A0D715E008C88F5 /* Main.storyboard */,
 				4A67562C2A0D715E008C88F5 /* Assets.xcassets */,
 				4A67562E2A0D715E008C88F5 /* LaunchScreen.storyboard */,
 				4A6756312A0D715E008C88F5 /* Info.plist */,
-				4A6756532A0D72DC008C88F5 /* Resources */,
 			);
 			path = JokeApp;
 			sourceTree = "<group>";
@@ -154,6 +163,41 @@
 				4A6756572A0D72DC008C88F5 /* Roboto-Bold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4A75109D2A594326003456E8 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				4A6756272A0D715E008C88F5 /* JokeViewController.swift */,
+				4A6756292A0D715E008C88F5 /* Main.storyboard */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		4A75109E2A5943BE003456E8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4A75109B2A58991E003456E8 /* UIView+Borders.swift */,
+				4A75109F2A5943D5003456E8 /* Array+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4A7510A12A594481003456E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4A7510A22A59A6F8003456E8 /* JokeModel.swift */,
+				4A7510A92A59C11F003456E8 /* PunchlineModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4A7510A42A59A755003456E8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4A7510A52A59A7EE003456E8 /* JokeFactory.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,9 +335,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A75109C2A58991E003456E8 /* UIView+Borders.swift in Sources */,
-				4A6756282A0D715E008C88F5 /* ViewController.swift in Sources */,
+				4A7510A02A5943D5003456E8 /* Array+Extensions.swift in Sources */,
+				4A7510A32A59A6F8003456E8 /* JokeModel.swift in Sources */,
+				4A6756282A0D715E008C88F5 /* JokeViewController.swift in Sources */,
 				4A6756242A0D715E008C88F5 /* AppDelegate.swift in Sources */,
 				4A6756262A0D715E008C88F5 /* SceneDelegate.swift in Sources */,
+				4A7510AA2A59C11F003456E8 /* PunchlineModel.swift in Sources */,
+				4A7510A62A59A7EE003456E8 /* JokeFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
