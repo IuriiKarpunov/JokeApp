@@ -2,7 +2,7 @@
 <html>
 <body>
 <h2> Jokes </h2>
-Проект-заготовка для студентов Яндекс практикума <br>
+Приложение по генерации шуток и их добивок <br>
 <h3> Ссылки </h3>
 <a href="https://www.figma.com/file/LZR5TpBT49pkx0MXcBvP9U/ui-jokes-app?node-id=0%3A1&t=gZZVNihayhrEH0KQ-1">Дизайн Figma </a><br>
 <a href="https://fonts.google.com/specimen/Roboto">Шрифт Roboto</a><br>
